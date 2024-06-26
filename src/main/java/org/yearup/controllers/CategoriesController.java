@@ -87,8 +87,9 @@ public class CategoriesController
 
     // add annotation to call this method for a POST action
     // add annotation to ensure that only an ADMIN can call this function
-    @PostMapping("")
+    @PostMapping()
     @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @ResponseStatus(value = HttpStatus.CREATED)
     public Category addCategory(@RequestBody Category category) {
 
         try {
@@ -96,11 +97,12 @@ public class CategoriesController
             return categoryDao.create(category);
 
         } catch (Exception ex) {
+            ex.printStackTrace();
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
     }
         // insert the category
-        //return categoryDao.insert(category);
+
 
 
     // add annotation to call this method for a PUT (update) action - the url path must include the categoryId
