@@ -73,7 +73,7 @@ List resources such as tutorials, articles, or documentation that helped you dur
 
 Express gratitude towards those who provided help, guidance, or resources:
 
-I would like to give a special thanks to Abirami, Demond,  Ben, Amoni, Manvir, Brya, Alexis & Pratik for helping me with this project.
+I would like to give a special thanks to Abirami, Demond,  Ben, Amoni, Manvir, Brya, & Alexis for helping me with this project.
 Also would like to give a shoutout to Mr.Raymond for always helping as well.
 
 
