@@ -136,6 +136,7 @@ public class CategoriesController
             categoryDao.update(id, category);
 
         }catch (Exception ex){
+
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops...My Bad");
         }
         // update the category by id

@@ -109,7 +109,7 @@ public class MySqlCategoryDao extends MySqlDaoBase implements CategoryDao {
     public void update(int categoryId, Category category)
     {
         {
-            String sql = "UPDATE category" +
+            String sql = "UPDATE categories" +
                     " SET name = ? " +
                     "   , category_id = ? " +
                     "   , description = ? " +
@@ -138,7 +138,7 @@ public class MySqlCategoryDao extends MySqlDaoBase implements CategoryDao {
     public void delete(int categoryId)
     {
 
-        String sql = "DELETE FROM category " +
+        String sql = "DELETE FROM categories " +
                 " WHERE category_id = ?;";
 
         try (Connection connection = getConnection())

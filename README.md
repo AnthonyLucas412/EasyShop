@@ -1,8 +1,8 @@
 # EasyShop
 
-## Description of the Project
+## Fix Bugs in the easyshop Program to make sure its running efficiently for version 2.
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+Aim to solve the bugs in the program for a better user experience . 
 
 ![Class Diagram](path/to/your/class_diagram.png)
 
@@ -10,12 +10,16 @@ Briefly describe what this Java console application does. Mention its purpose an
 
 List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a developer, I want to find the bugs in the CategoriesController , so that categories can be shown correctly.
+- As a developer, I want to fix the bugs in Products Controller, so that products can be shown correctly.
+- As a developer , I want the filters working , so that the user can have a smooth experience with application.
 
 ## Setup
 
-Instructions on how to set up and run the project using IntelliJ IDEA.
+Open IntelliJ
+Click the 4 lines at the top 
+click open project 
+look for capstone-starter & client web application 
 
 ### Prerequisites
 
@@ -66,8 +70,8 @@ List resources such as tutorials, articles, or documentation that helped you dur
 
 Express gratitude towards those who provided help, guidance, or resources:
 
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+I would like to give a special thanks to Abirami, Demond,  Ben, Amoni, Manvir, Bre, Alexis & Pratik for helping me with this project.
+Also would like to give a shoutout to Mr.Raymond for always helping as well.
 
 
 
